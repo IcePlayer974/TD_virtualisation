@@ -30,3 +30,8 @@ Ce projet gère les machines virtuelles avec VirtualBox.
 
 ### 6. Liste des VMs disponibles
 ![Liste des VMs](screenshots/screen6.png)
+
+---
+
+## ⚠️ Disclaimer
+Si vous souhaitez cloner ou utiliser ce projet, **veillez à redéfinir les chemins** (`VM_PATH` et `ISO_PATH`) dans le fichier `TD_virtualisation.py` pour correspondre à votre environnement local. Cela garantira le bon fonctionnement du script.
