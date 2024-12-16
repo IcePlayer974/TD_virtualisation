@@ -10,6 +10,28 @@ Ce projet gère les machines virtuelles avec VirtualBox.
 - Liste des VMs disponibles
 
 ---
+## Réponses aux questions
+
+Partie 2. 
+
+Les possibilités de mode pour la carte réseau sont NAT, Accès par pont, Réseau interne, Réseau privé hôte et pas de réseau. 
+Le réseau NAT est utile lorsque l'on souhaite que la VM prenne la même adresse ip que la machine hôte.
+Le réseau accès par pont permet de donner une nouvelle adresse ip à la VM est qu'elle soit considéré comme une machine à part entière. 
+Le réseau permet à plusieurs VM de communiquer entre elles dans un réseau isolé.
+Le réseau privé hôte limite l'accès de la VM à uniquement la machine hôte. 
+
+
+Partie 3.
+
+Le premier mode est l'exportation de la VM en fichier puis l'importation du fichier dans la nouvelle VM.
+Les avantages sont la facilité de personnalisation de la VM, la possibilité d'utiliser cette méthode sur plusieurs logiciels (compatibilité du fichier OVF)
+Néanmois, les inconvénients sont la taille des fichiers qui sont volumineux et le processus de exportation et d'importation qui peut être long.
+
+Le second mode est le clonage via Virtual Box directement. 
+L'avantage est la rapidité.
+Les inconvénients sont le maintien totale de la configuration de la VM source, l'impossibilité d'utiliser cette méthode pour cloner sur un autre logiciel.
+
+---
 
 ## Captures d'écran
 
